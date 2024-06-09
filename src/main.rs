@@ -6,5 +6,4 @@ fn main() {
         <h1>Hello World</h1>
     "#;
     std::fs::write("_site/index.html", html).unwrap();
-
 }
